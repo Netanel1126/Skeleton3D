@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB8E5913272FD4950080EB78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E5912272FD4950080EB78 /* AppDelegate.swift */; };
+		DB8E5915272FD4950080EB78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E5914272FD4950080EB78 /* SceneDelegate.swift */; };
+		DB8E5917272FD4950080EB78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E5916272FD4950080EB78 /* ViewController.swift */; };
+		DB8E591A272FD4950080EB78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8E5918272FD4950080EB78 /* Main.storyboard */; };
+		DB8E591C272FD4990080EB78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8E591B272FD4990080EB78 /* Assets.xcassets */; };
+		DB8E591F272FD4990080EB78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8E591D272FD4990080EB78 /* LaunchScreen.storyboard */; };
+		DB8E592C272FD5EB0080EB78 /* three_d_skeleton.json in Resources */ = {isa = PBXBuildFile; fileRef = DB8E592B272FD5EB0080EB78 /* three_d_skeleton.json */; };
+		DB8E592E272FD61D0080EB78 /* Skeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E592D272FD61D0080EB78 /* Skeleton.swift */; };
+		DB8E5930272FD7780080EB78 /* SCNNode With Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E592F272FD7780080EB78 /* SCNNode With Line.swift */; };
+		DB8E5932272FD7B40080EB78 /* JSONReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E5931272FD7B40080EB78 /* JSONReader.swift */; };
+		DB8E5CD5272FEBD00080EB78 /* Skeleton3DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E5CD4272FEBD00080EB78 /* Skeleton3DViewController.swift */; };
+		DB8E5CD7272FEC1B0080EB78 /* Skeleton3DPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E5CD6272FEC1B0080EB78 /* Skeleton3DPresenter.swift */; };
+		DB8E5CDF2730008E0080EB78 /* Skeleton3DViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E5CDE2730008D0080EB78 /* Skeleton3DViewProtocol.swift */; };
+		DB8E5CE1273000AE0080EB78 /* Skeleton3DPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E5CE0273000AE0080EB78 /* Skeleton3DPresenterProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB8E590F272FD4950080EB78 /* Skeleton3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skeleton3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8E5912272FD4950080EB78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB8E5914272FD4950080EB78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DB8E5916272FD4950080EB78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB8E5919272FD4950080EB78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB8E591B272FD4990080EB78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB8E591E272FD4990080EB78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB8E5920272FD4990080EB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB8E592B272FD5EB0080EB78 /* three_d_skeleton.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = three_d_skeleton.json; sourceTree = "<group>"; };
+		DB8E592D272FD61D0080EB78 /* Skeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skeleton.swift; sourceTree = "<group>"; };
+		DB8E592F272FD7780080EB78 /* SCNNode With Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNNode With Line.swift"; sourceTree = "<group>"; };
+		DB8E5931272FD7B40080EB78 /* JSONReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONReader.swift; sourceTree = "<group>"; };
+		DB8E5CD4272FEBD00080EB78 /* Skeleton3DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skeleton3DViewController.swift; sourceTree = "<group>"; };
+		DB8E5CD6272FEC1B0080EB78 /* Skeleton3DPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skeleton3DPresenter.swift; sourceTree = "<group>"; };
+		DB8E5CDE2730008D0080EB78 /* Skeleton3DViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Skeleton3DViewProtocol.swift; path = Skeleton3D/UI/Protocols/Skeleton3DViewProtocol.swift; sourceTree = SOURCE_ROOT; };
+		DB8E5CE0273000AE0080EB78 /* Skeleton3DPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skeleton3DPresenterProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB8E590C272FD4950080EB78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB8E5906272FD4950080EB78 = {
+			isa = PBXGroup;
+			children = (
+				DB8E5911272FD4950080EB78 /* Skeleton3D */,
+				DB8E5910272FD4950080EB78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB8E5910272FD4950080EB78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB8E590F272FD4950080EB78 /* Skeleton3D.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB8E5911272FD4950080EB78 /* Skeleton3D */ = {
+			isa = PBXGroup;
+			children = (
+				DB8E5926272FD4B00080EB78 /* Data */,
+				DB8E5929272FD4F80080EB78 /* Model */,
+				DB8E592A272FD5A10080EB78 /* Extensions */,
+				DB8E5928272FD4E50080EB78 /* Helper */,
+				DB8E5927272FD4D50080EB78 /* UI */,
+				DB8E5912272FD4950080EB78 /* AppDelegate.swift */,
+				DB8E5914272FD4950080EB78 /* SceneDelegate.swift */,
+				DB8E591B272FD4990080EB78 /* Assets.xcassets */,
+				DB8E591D272FD4990080EB78 /* LaunchScreen.storyboard */,
+				DB8E5920272FD4990080EB78 /* Info.plist */,
+			);
+			path = Skeleton3D;
+			sourceTree = "<group>";
+		};
+		DB8E5926272FD4B00080EB78 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DB8E592B272FD5EB0080EB78 /* three_d_skeleton.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DB8E5927272FD4D50080EB78 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DB8E5CDA2730003D0080EB78 /* Protocols */,
+				DB8E5CDC2730005C0080EB78 /* Storyboards */,
+				DB8E5CDB2730004B0080EB78 /* ViewControllers */,
+				DB8E5CDD273000700080EB78 /* Presentor */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DB8E5928272FD4E50080EB78 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DB8E5931272FD7B40080EB78 /* JSONReader.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		DB8E5929272FD4F80080EB78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB8E592D272FD61D0080EB78 /* Skeleton.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB8E592A272FD5A10080EB78 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DB8E592F272FD7780080EB78 /* SCNNode With Line.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DB8E5CDA2730003D0080EB78 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DB8E5CDE2730008D0080EB78 /* Skeleton3DViewProtocol.swift */,
+				DB8E5CE0273000AE0080EB78 /* Skeleton3DPresenterProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		DB8E5CDB2730004B0080EB78 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB8E5916272FD4950080EB78 /* ViewController.swift */,
+				DB8E5CD4272FEBD00080EB78 /* Skeleton3DViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DB8E5CDC2730005C0080EB78 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DB8E5918272FD4950080EB78 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DB8E5CDD273000700080EB78 /* Presentor */ = {
+			isa = PBXGroup;
+			children = (
+				DB8E5CD6272FEC1B0080EB78 /* Skeleton3DPresenter.swift */,
+			);
+			path = Presentor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB8E590E272FD4950080EB78 /* Skeleton3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB8E5923272FD4990080EB78 /* Build configuration list for PBXNativeTarget "Skeleton3D" */;
+			buildPhases = (
+				DB8E590B272FD4950080EB78 /* Sources */,
+				DB8E590C272FD4950080EB78 /* Frameworks */,
+				DB8E590D272FD4950080EB78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skeleton3D;
+			productName = Skeleton3D;
+			productReference = DB8E590F272FD4950080EB78 /* Skeleton3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB8E5907272FD4950080EB78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					DB8E590E272FD4950080EB78 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = DB8E590A272FD4950080EB78 /* Build configuration list for PBXProject "Skeleton3D" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB8E5906272FD4950080EB78;
+			productRefGroup = DB8E5910272FD4950080EB78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB8E590E272FD4950080EB78 /* Skeleton3D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB8E590D272FD4950080EB78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8E592C272FD5EB0080EB78 /* three_d_skeleton.json in Resources */,
+				DB8E591F272FD4990080EB78 /* LaunchScreen.storyboard in Resources */,
+				DB8E591C272FD4990080EB78 /* Assets.xcassets in Resources */,
+				DB8E591A272FD4950080EB78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB8E590B272FD4950080EB78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8E5CDF2730008E0080EB78 /* Skeleton3DViewProtocol.swift in Sources */,
+				DB8E5CD7272FEC1B0080EB78 /* Skeleton3DPresenter.swift in Sources */,
+				DB8E5CE1273000AE0080EB78 /* Skeleton3DPresenterProtocol.swift in Sources */,
+				DB8E5930272FD7780080EB78 /* SCNNode With Line.swift in Sources */,
+				DB8E5917272FD4950080EB78 /* ViewController.swift in Sources */,
+				DB8E5CD5272FEBD00080EB78 /* Skeleton3DViewController.swift in Sources */,
+				DB8E5913272FD4950080EB78 /* AppDelegate.swift in Sources */,
+				DB8E592E272FD61D0080EB78 /* Skeleton.swift in Sources */,
+				DB8E5932272FD7B40080EB78 /* JSONReader.swift in Sources */,
+				DB8E5915272FD4950080EB78 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB8E5918272FD4950080EB78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB8E5919272FD4950080EB78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB8E591D272FD4990080EB78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB8E591E272FD4990080EB78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB8E5921272FD4990080EB78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB8E5922272FD4990080EB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB8E5924272FD4990080EB78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZUK4KDZSR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Skeleton3D/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netanel.Skeleton3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DB8E5925272FD4990080EB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZUK4KDZSR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Skeleton3D/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netanel.Skeleton3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB8E590A272FD4950080EB78 /* Build configuration list for PBXProject "Skeleton3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8E5921272FD4990080EB78 /* Debug */,
+				DB8E5922272FD4990080EB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB8E5923272FD4990080EB78 /* Build configuration list for PBXNativeTarget "Skeleton3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8E5924272FD4990080EB78 /* Debug */,
+				DB8E5925272FD4990080EB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB8E5907272FD4950080EB78 /* Project object */;
+}
